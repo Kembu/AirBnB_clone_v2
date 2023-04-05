@@ -1,15 +1,15 @@
 #!/usr/bin/env bash
-# a script to install and conf nginx
+# script to install and configure nginx
 
 #install nginx
 sudo apt-get update
 sudo apt-get install nginx -y
 
-#creating repositories
+#creating directories
 sudo mkdir -p /data/web_static/releases/test/
 sudo mkdir -p /data/web_static/shared/
 
-#creating a dummy html page
+#creating a html page
 echo "<!DOCTYPE html>
 <html>
   <head>
