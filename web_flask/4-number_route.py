@@ -33,7 +33,7 @@ def python_is_cool(text='is cool'):
 @app.route('/number/<int:n>', strict_slashes=False)
 def is_number(n):
     """display only if n is number"""
-    return '{n} is a number'.format(n)
+    return '{} is a number'.format(n)
 
 
 if __name__ == "__main__":
